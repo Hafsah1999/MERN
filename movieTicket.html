@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieTicketForm</title>
+    <style>
+        * {
+            background-color: rgb(202, 215, 219);
+            text-align: center;
+        }
+        h1 {
+            text-align: center;
+            color: red;
+        }
+        label {
+            font-size: larger;
+            font-weight: bold;
+            color: purple;
+        }
+        button {
+            font-size: larger;
+            border-radius: 15%;
+            background-color: rgb(253, 6, 6) ;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <h1>
+            Online Movie Tickets Booking
+        </h1>
+        <label for="">Select movie :</label>
+        <br>
+        <select>
+        <option>Select any movie</option>
+        <option value="">Dream Girl 2</option>
+        <option value="">Gadar 2</option>
+        <option value="">Jailer</option>
+        <option value="">OMG 2</option>
+        <option value="">Mastaney</option>
+    </select>
+    <br>
+    <br>
+    <label for="date">The date you want to attend:</label><br>
+    <input type="date" name="date" id="date">
+    <br><br>
+    <label for="time">What time suits you :</label><br>
+    <input type="time" name="time" id="time">
+    <br><br>
+    <label>No. of tickets :
+        <br>
+    <input type="radio" name="seats" value="1">1
+</label>
+<label>
+    <input type="radio" name="seats" value="2">2
+</label>
+<label>
+    <input type="radio" name="seats" value="3">3
+</label>
+<label>
+    <input type="radio" name="seats" value="4">4
+</label>
+<label>
+    <input type="radio" name="seats" value="5">5
+</label>
+<label>
+    <input type="radio" name="seats" value="6">6
+</label>
+<label>
+    <input type="radio" name="seats" value="7">7
+</label>
+<label>
+    <input type="radio" name="seats" value="8">8
+</label>
+<label>
+    <input type="radio" name="seats" value="9">9
+</label>
+<label>
+    <input type="radio" name="seats" value="10">10
+</label>
+    </select>
+    <br><br>
+    <label for="email">Email Address :</label><br>
+    <input type="email" name="email" id="email">
+    <br><br>
+     <label for="name">Reservation name :</label><br>
+     <input type="text" name="name" id="name">
+     <br><br>
+     <button>Book Ticket</button>
+    </form>
+</body>
+</html>
