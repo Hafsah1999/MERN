@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to the Image Gallery</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background-color: rgb(248, 204, 174);
+        }
+        header {
+            background-color:  brown;
+            color: white;
+            padding: 2px;
+            text-align: center;
+        }
+        .img{
+            width: 100%;
+            height: auto;
+            border: 1px solid #ccc;
+
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+            gap: 10px;
+            padding: 20px;
+
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Image Gallery</h1>
+    </header>
+    <div class="container">
+        <img class="img" src="https://cdn4.sharechat.com/236188e6_1673803837700_sc.webp" alt="Loading...">
+        <img class="img" src="https://cdn4.sharechat.com/img_592970_206ee660_1675172538933_sc.jpg?tenant=sc&referrer=tag-service&f=933_sc.jpg" alt="loading..">
+         <img src="https://cdn4.sharechat.com/img_908366_23aab839_1675193905488_sc.jpg?tenant=sc&referrer=trending-feed-service&f=488_sc.jpg" alt="loading.." class="img">
+         <img src="https://cdn4.sharechat.com/img_896008_146c077f_1675193893442_sc.jpg" alt="loading..." class="img">
+         <img src="https://cdn4.sharechat.com/compressedimg_522423_2c56213a_1675193919652_sc.webp?tenant=sc&referrer=pwa-sharechat-service&f=52_sc.webp" alt="" class="img">
+         <img src="https://cdn4.sharechat.com/img_385668_381fdd06_1675172383013_sc.jpg?tenant=sc&referrer=tag-service&f=013_sc.jpg" alt="loading.." class="img">
+
+    </div>
+</body>
+</html>
