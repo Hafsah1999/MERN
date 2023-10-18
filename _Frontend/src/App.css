@@ -1,0 +1,48 @@
+.img{
+    height: 90vh;
+}
+.loginCard{
+    width: 350px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 50px;
+  
+ 
+}
+.bg-img{
+background-image: url(https://img.freepik.com/premium-photo/autumn-trees-park-background_118124-37157.jpg);
+background-size: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 90vh;
+margin: 0;
+}
+.about{
+    height: 600px;
+}
+.img-2{
+    height: 500px;
+    width: 500px;
+}
+.btn-2{
+    background-color:rgb(18, 160, 216);
+    color:  blue;
+    border: none;
+    border-radius: 10px;
+}
+.bg-img-1{
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/back_our/20190628/ourmid/pngtree-four-seasons-background-spring-background-summer-background-autumn-background-image_265936.jpg);
+    background-size: cover;
+}
+.text{
+    font-family:'Times New Roman', Times, serif ;
+    color: rgb(221, 120, 4);
+}
+.bgimg{
+    background-image: url(https://media.istockphoto.com/id/1256382473/photo/set-of-school-supplies-on-yellow-background-place-for-text.jpg?s=170667a&w=0&k=20&c=ReIJT3emDYOp42xjheIxR2flv6gjdSsol0g6otjSibQ=);
+    background-size: cover;
+}
