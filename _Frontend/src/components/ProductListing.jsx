@@ -4,15 +4,16 @@ import Data from './Dummydata'
 
 const ProductListing = () => {
 
-    const[product, setProduct] = useState(Data)
+    const [product, setProduct] = useState(Data)
 
     const displayProduct = () => {
-        return product.map((obj) => (
+        return product.map((obj) => {
             <div className="col-md-4 col-6 mt-5 mb-4">
                 <div className="card shadow">
-                    <img src={obj.image} alt="loading"  />
+                    <img src={obj.image} alt="loading" />
                 </div>
                 <div className="card-body">
+                    {obj.sponsored ? <h6 className="text-muted fw-bold">Sponsored</h6> : ''}
                     <h5 className="card-title">
                         {obj.Brand}
                     </h5>
@@ -20,13 +21,13 @@ const ProductListing = () => {
                     <p>Price : {obj.price}</p>
                 </div>
             </div>
-        ));
+        });
     };
 
     const searchProduct = (e) => {
-        const search = e.target.value 
-        let filteredProduct = Data.filter((product) =>{
-                 return product.Brand.toLowerCase().includes(search.toLowerCase());
+        const search = e.target.value
+        let filteredProduct = Data.filter((product) => {
+            return product.Brand.toLowerCase().includes(search.toLowerCase());
         });
         setProduct(filteredProduct)
     };

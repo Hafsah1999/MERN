@@ -11,6 +11,7 @@ import EventHandling from './components/eventHandling'
 import Count from './components/count'
 import Todo from './components/Todo'
 import ProductListing from './components/ProductListing'
+import Weathercard from './components/Weathercard'
 
 
 
@@ -31,6 +32,7 @@ const App = () => {
           <Route path="count" element={<Count/>}></Route>
           <Route path="Todo" element={<Todo/>}></Route>
           <Route path="ProductListing" element={<ProductListing/>}></Route>
+          <Route path="Weathercard" element={<Weathercard/>}></Route>
 
           
         </Routes>

@@ -90,6 +90,14 @@ const Navbar = () => {
                 ProductListing
               </Link>
             </li>
+            <li className="nav-item">
+              <Link
+                className="nav-link active fs-5  text-danger opacity-75"
+                to="/Weathercard"
+              >
+                Weathercard
+              </Link>
+            </li>
 
           </ul>
         </div>
