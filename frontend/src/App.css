@@ -3,7 +3,7 @@
 }
 .loginCard{
     width: 350px;
-    height: 400px;
+    height: 460px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -46,3 +46,4 @@ margin: 0;
     background-image: url(https://media.istockphoto.com/id/1256382473/photo/set-of-school-supplies-on-yellow-background-place-for-text.jpg?s=170667a&w=0&k=20&c=ReIJT3emDYOp42xjheIxR2flv6gjdSsol0g6otjSibQ=);
     background-size: cover;
 }
+

@@ -30,6 +30,7 @@ const Todo = () => {
             </div>
             <div className ="card-body ">
                 {todoList.map((todo,index) => {
+                    <>
                     return(
                         <div className="d-flex justify-content-between mt-3">
                             <h5>{todo}</h5>
@@ -37,6 +38,7 @@ const Todo = () => {
                             onClick={() => { removeTodo(index)}}>Delete</button>
                         </div>
                     )
+                    </>
                 })}
             </div>
         </div>

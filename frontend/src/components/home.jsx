@@ -1,4 +1,4 @@
-import React from "react";
+
 // import image from './img.jpg'
 
 const Home = () => {
