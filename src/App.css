@@ -1,0 +1,392 @@
+.landing-bg-img {
+  background-image: url(https://img.freepik.com/free-photo/forest-landscape_71767-127.jpg?w=740&t=st=1699885296~exp=1699885896~hmac=11ca82244db83e3ae133b1f9303c26907d91e7f81ac719129d045e3cb8932058);
+  height: 100vh;
+  background-size: cover;
+}
+.landing-button-1 {
+  background-color: lightblue;
+  color: blue;
+  border: none;
+  /* margin-top: 250px;
+  margin-left: 500px; */
+  font-family: serif;
+  font-size: 25px;
+  width: 100px;
+  /* padding: 10px; */
+  border-radius: 10px;
+  transition-property: all;
+  transition-duration: 0.5s;
+}
+.landing-button-01 {
+  width: 400px;
+  background-color: rgb(59, 59, 117);
+  border: none;
+  padding: 10px 10px;
+  border-radius: 10px;
+}
+.landing-button-02 {
+  width: 400px;
+  margin-top: 10px;
+  background-color: pink;
+  border: none;
+  padding: 10px 10px;
+  border-radius: 10px;
+}
+.signup-card {
+  height: 100vh;
+}
+.landing-button-1:hover {
+  transform: scale(1.1) translateX(-10px);
+  box-shadow: 0px 0.1px 10px -5px lightblue;
+  color: blue;
+  background-color: lightblue;
+}
+.landing-button-2:hover {
+  transform: scale(1.1) translateX(-10px);
+  box-shadow: 0px 0.1px 10px -5px lightcoral;
+  color: white;
+  background-color: lightcoral;
+}
+.landing-button-2 {
+  background-color: lightcoral;
+  /* margin-left: 5px; */
+  font-family: serif;
+  font-size: 25px;
+  width: 100px;
+  /* padding: 10px; */
+  border-radius: 10px;
+  border: none;
+  color: white;
+  transition-property: all;
+  transition-duration: 0.5s;
+}
+.bg-img-signup {
+  background-image: url(https://img.freepik.com/premium-photo/tranquil-scene-nature-beauty-reflected-calm-water-generated-by-artificial-intelligence_24911-90842.jpg);
+  background-size: cover;
+  height: 100vh;
+  /* filter: blur(2px); */
+}
+.bg-img-signup-card {
+  /* background-image: url(https://img.freepik.com/premium-photo/tranquil-scene-nature-beauty-reflected-calm-water-generated-by-artificial-intelligence_24911-90842.jpg); */
+  background-size: cover;
+  /* opacity: 40%; */
+  height: 80vh;
+  width: 500px;
+  margin-top: 60px;
+  margin-left: 440px;
+  border: none;
+  box-shadow: -5px -10px 10px grey;
+}
+.signup-heading {
+  text-align: center;
+  font-weight: bold;
+  font-size: 50px;
+  color: rgb(26, 26, 87);
+  font-family: serif;
+}
+.input-signup {
+  width: 75%;
+  margin-top: 20px;
+  margin-left: 50px;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  background-color: rgb(26, 26, 87);
+}
+.input-signup::placeholder {
+  color: white;
+  font-family: cursive;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.bg-img-home {
+  background-image: url("https://img.freepik.com/free-photo/morskie-oko-tatry_1204-510.jpg?w=740&t=st=1700038725~exp=1700039325~hmac=a3f1374faf98280690c5e177c71028555c02278809ed84b04bcd4a6227b2daa2");
+  height: 70vh;
+  background-size: cover;
+}
+.text-heading-home {
+  color: rgb(28, 28, 117);
+  word-spacing: 1px;
+  letter-spacing: 0px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+ 
+ 
+}
+.text-heading-home:hover{
+  font-size: 44px;
+  color: blue;
+}
+.sub-title-home {
+  color: white;
+  font-family: serif;
+
+  word-spacing: 3px;
+  background-color: rgba(53, 73, 109, 0.507);
+  padding: 10px;
+font-size: 40px;
+
+}
+.sub-title-home:hover{
+font-size: 45px;
+}
+.input-home {
+  width: 50%;
+  margin-left: 280px;
+  border: none;
+  border-radius: 20px;
+  background-color: blue;
+  font-family: cursive;
+  font-size: 20px;
+}
+.input-home:hover {
+  text-shadow: 0px 2px blue, 0px 4px blue;
+  font-size: 22px;
+  font-weight: bold;
+}
+.input-home::placeholder {
+  color: white;
+  font-family: cursive;
+  font-size: 20px;
+  margin: 10px;
+  padding: 10px;
+  word-spacing: 3px;
+  letter-spacing: 1px;
+}
+header {
+  background-color: rgb(53, 73, 109);
+}
+.btn-navbar {
+  border: none;
+  background-color: rgb(223, 143, 38);
+  border-radius: 20px;
+  color: white;
+  font-family: cursive;
+  text-shadow: 0px 2px brown;
+  letter-spacing: 1px;
+}
+.btn-navbar:hover {
+  text-shadow: 0px 2px brown, 0px 4px brown;
+  font-size: 22px;
+  font-weight: bold;
+}
+.btn-home {
+  background-color: rgb(187, 115, 20);
+  margin-right: 280px;
+  border-radius: 20px;
+  border: none;
+  width: 80px;
+  color: white;
+  font-family: cursive;
+  font-size: 20px;
+  padding: 5px;
+  letter-spacing: 1px;
+  text-shadow: 0px 2px brown;
+}
+.places-home-heading {
+  color: rgb(53, 73, 109);
+  font-size: 40px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  transition: all;
+  transition-duration: 0.3s;
+}
+.places-home-heading:hover {
+  font-size: 45px;
+}
+.btn-home:hover {
+  text-shadow: 0px 2px brown, 0px 4px brown;
+  font-size: 22px;
+  font-weight: bold;
+}
+.swiper-img {
+  height: 40vh;
+  width: 200px;
+}
+.swiper-img:hover {
+  height: 43vh;
+  width: 210px;
+}
+.bg-img-about {
+  background-image: url(https://media.easemytrip.com/media/Blog/India/637037291754990788/637037291754990788Ue4zA8.jpg);
+  background-size: cover;
+  height: 50vh;
+}
+.about-site-title {
+  font-family: cursive;
+  word-spacing: 5px;
+  letter-spacing: 2px;
+}
+.about-sub-title {
+  color: skyblue;
+  font-weight: bold;
+  /* text-shadow: 0px  2px white; */
+  letter-spacing: 1px;
+  margin-top: 5px;
+  word-spacing: 3px;
+}
+.btn-about {
+  position: relative;
+  width: 25%;
+  background-color: rgb(223, 143, 38);
+
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 200px;
+  margin-left: 500px;
+  color: white;
+  font-family: cursive;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  font-size: 20px;
+}
+.btn-about:hover {
+  text-shadow: 0px 2px brown;
+  font-size: 22px;
+}
+.about-icon-bg {
+  height: 80px;
+  background-color: rgb(179, 128, 33);
+  width: 80px;
+  border-radius: 50%;
+}
+.aboutSwiper {
+  height: 70vh;
+
+  width: 50%;
+  margin-bottom: 50px;
+}
+.btn-about-1 {
+  font-family: cursive;
+  font-size: 20px;
+  text-shadow: 0px 2px blue;
+}
+.btn-about-1:hover {
+  font-size: 22px;
+  text-shadow: 0px 0px 5px white, 0px 0px 10px white, 0px 0px 15px blue,
+    0px 0px 20px blue;
+}
+
+.img-about-swiper {
+  display: block;
+  margin: auto;
+  width: 150px;
+  height: 100px;
+  border-radius: 10px;
+}
+.img-about-swiper:hover{
+  width: 170px;
+  height: 120px;
+  border-radius: 20px;
+
+}
+.about-swiper-1 {
+  margin-bottom: 50px;
+  border: none;
+  margin-top: 20px;
+}
+.peoplesay-heading {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  font-size: 40px;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  background-color: rgb(53, 73, 109);
+  padding: 10px;
+  color: white;
+}
+.peoplesay-heading:hover{
+font-size: 44px;
+color: pink;
+
+}
+p {
+  font-family: cursive;
+  word-spacing: 3px;
+  letter-spacing: 1px;
+  color: brown;
+}
+p:hover {
+  color: blueviolet;
+  font-size: 17px;
+  
+}
+.who-about {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  font-size: 40px;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  background-color: rgb(53, 73, 109);
+  padding: 10px;
+  color: white;
+}
+.who-about:hover{
+  font-size: 45px;
+color: pink;
+}
+
+.memories-about {
+  font-family: serif;
+  margin-top: 20px;
+  letter-spacing: 1px;
+  color: rgb(20, 20, 20);
+  text-shadow: 0px 2px skyblue, 0px 4px skyblue;
+}
+.name {
+  color: rgb(53, 73, 109);
+  font-size: 25px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.name:hover {
+  font-size: 30px;
+  text-shadow: 0px 0px 5px white, 0px 0px 10px white, 0px 0px 15px blue,
+    0px 0px 20px blue, 0px 0px 25px blue;
+}
+.bg-explore{
+ 
+  background-image: url(https://img.freepik.com/free-photo/indian-travel-destination-beautiful-attractive_53876-31873.jpg?w=900&t=st=1700036393~exp=1700036993~hmac=0a88119d00199cdb0081f6c58df0bfa5a1af2fbb05ecdfe27237c0eb268c4217);
+background-size: cover;
+height: 70vh;
+}
+.btn-explore{
+  border: none;
+  background-color: transparent;
+  margin-left: 880px;
+  font-size: 18px;
+  font-family: cursive;
+  cursor: pointer;
+  padding: 5px;
+  width: 150px;
+  transition: all 0.6s ease;
+}
+.btn-explore:hover{
+  transform: scale(1.1) translateX(-10px);
+  font-size: 20px;
+}
+.explore-placesvisit{
+  color: rgb(53, 73, 109);
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  text-transform: capitalize;
+  background-color: pink;
+  padding: 5px;
+  padding-left: 20px;
+}
+.explore-placesvisit:hover{
+  font-size: 44px;
+}
+.explore-placesvisit-para{
+  margin-top: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  word-spacing: 4px;
+  font-size: 22px;
+  color: brown;
+
+}
+.explore-placesvisit-para:hover{
+  font-size: 23px;
+  color: mediumslateblue;
+}
